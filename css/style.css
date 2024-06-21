@@ -185,3 +185,14 @@
   background-color: rgba(219, 219, 219, 0.466);
   backdrop-filter: blur(4px);
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px; /* Ajusta este valor para más o menos espacio entre los botones */
+  padding: 20px; /* Añade padding si es necesario */
+
+}
+
+
