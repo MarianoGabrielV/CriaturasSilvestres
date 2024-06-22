@@ -1,5 +1,5 @@
 
-  .fondo {
+.fondo {
     background-image: url('../img/fondo3.jpg');
     background-color: black;
     background-size: contain;
@@ -23,6 +23,32 @@
 
 #Nosotros h3 {
     color: #ffffff;
+}
+
+#monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#monoton-regular-subt {
+  font-family: "Monoton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+}
+
+#special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#special-elite-regular-p {
+  font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
 }
 
 .Btn {

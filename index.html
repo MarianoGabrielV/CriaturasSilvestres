@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Criaturas</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Sitio Oficial CS</a>
+    <a class="navbar-brand" href="#" id="special-elite-regular">Sitio Oficial CS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="#" id="special-elite-regular">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Nosotros" onclick="scrollToSection('Nosotros')">Nosotros</a>
+          <a class="nav-link" href="#Nosotros" onclick="scrollToSection('Nosotros')" id="special-elite-regular">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contenido" onclick="scrollToSection('contenido')">Contenido</a>
+          <a class="nav-link" href="#contenido" onclick="scrollToSection('contenido')" id="special-elite-regular">Contenido</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contacto" onclick="scrollToSection('contacto')" >Contacto</a>
+          <a class="nav-link" href="#contacto" onclick="scrollToSection('contacto')" id="special-elite-regular" >Contacto</a>
         </li>
       </ul>
     </div>
@@ -42,13 +50,15 @@
 <!-- About -->
 <section id="Nosotros" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Acerca de la Banda</h2>
-      <h3>Biografia</h3>
+      <h2 class="text-center mb-4" id="monoton-regular-subt">Acerca de la Banda</h2>
       <br>
-      <P>Somos Una Banda De Rock And Roll Con Influencias Del Rock Tradicional Y El Blues, El Punk Y El Rock Alternativo. Banda Formada En El 2016 Que Comenzaron Sus Ensayos En La Zona De Burzaco (Alte. Brow, Buenos Aires).<p>
+      <br>
+      <h3 id="monoton-regular">Biografia</h3>
+      <br>
+      <p id="special-elite-regular-p">Somos Una Banda De Rock And Roll Con Influencias Del Rock Tradicional Y El Blues, El Punk Y El Rock Alternativo. Banda Formada En El 2016 Que Comenzaron Sus Ensayos En La Zona De Burzaco (Alte. Brow, Buenos Aires).<p id="special-elite-regular-p">
         En El 2018 Graban Su Primer Demo Con 6 Canciones, Presentadolo El 5 De Enero Del 2019 En "Sotano De Glew".
         Durante Ese 2019 Recorrieron Muchos Lugares Tocando En Vivo Con Una Muy Interesante Respuesta De Los Presentes.</p>
-      <p>En El Año 2020 Graban Una Maqueta Con 4 Canciones Nuevas Que Son Parte De Su Setlist En Vivo.
+      <p id="special-elite-regular-p">En El Año 2020 Graban Una Maqueta Con 4 Canciones Nuevas Que Son Parte De Su Setlist En Vivo.
         Treanscurriendo 2021 Graban Su Primer Video Clip ME ALEJARE Siendo Un Año Clave Para El Crecimiento De La Banda, Graban Audio Y Video En Las Instalaciones Del Ya Tan Reconocido Estudio "RAMAPHONIC".</P>
       <!-- Carousel code here -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -62,7 +72,7 @@
             <img src="img/Foto2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/fondo3.jpg" class="d-block w-100" alt="...">
+            <img src="img/criaturas2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="img/foto3.jpg" class="d-block w-100" alt="...">
@@ -82,7 +92,9 @@
 
   <section id="contenido" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Videos de la banda</h2>
+        <h2 class="text-center mb-4" id="monoton-regular-subt">Videos de la banda</h2>
+        <br>
+        <br>
         <div class="row">
             <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -90,8 +102,9 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <h3>Criaturas Silvestres - El barrio  ( Romaphonic Mural session)</h3>
-                <p>Grabación en Romaphonic estudios
+                <h3 id="special-elite-regular">Criaturas Silvestres - El barrio  ( Romaphonic Mural session)</h3>
+                <br>
+                <p id="special-elite-regular">Grabación en Romaphonic estudios
                   Banda rock Glew zona sur
                   Voz y armónica: Waly
                   Batería: Franco
@@ -107,8 +120,9 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <h3>Criaturas Silvestres - Simbiosis [mural sessión ] Romaphonic</h3>
-                <p>Grabado en Romaphonic estudios
+                <h3 id="special-elite-regular" >Criaturas Silvestres - Simbiosis [mural sessión ] Romaphonic</h3>
+                <br>
+                <p id="special-elite-regular">Grabado en Romaphonic estudios
                   Voz : Waly
                   Primera Guitarra: Dario Serrano
                   Segunda Guitarra: Brian Benítez
@@ -117,6 +131,10 @@
             </div>
         </div>
     </div>
+</section>
+<section id="contacto">
+<div class="container">
+  <h2 class="text-center mb-4" id="monoton-regular-subt">Contactos</h2> </div>
 </section>
 <footer>
   <a href="https://www.facebook.com/glewcityrock?locale=es_LA" target="_blank" class="BtnLink">
@@ -149,7 +167,10 @@
       <span class="BGyt"></span>
   </button>
   </a>
+
 </footer>
+
+<div><h1>asdasdas</h1></div>
 
 <!--
 <section id="contacto" class="py-5">
