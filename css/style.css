@@ -10,11 +10,20 @@
     align-items: start center;
     justify-content: center;
   }
+.nav-link {
+  color: #000000;
+  font-size: 18px;
+}
+.navbar-brand{
+  color: #000000;
+  font-size: 30px;
+}
   #Nosotros {
     background-color: #000000;
 }
 #Nosotros h2 {
     color: #ffffff;
+    
 }
 
 #Nosotros p {
