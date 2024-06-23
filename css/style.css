@@ -249,4 +249,29 @@ footer {
     
 }
 
+/* Carrousel */
 
+
+
+.carousel-item img {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Productos */
+
+#productos {
+  
+    background-color: #000; /* Color negro */
+    color: #000000; /* Color del texto blanco para contraste */
+    padding: 80px 0; /* Ajusta el padding según sea necesario */
+  
+  
+}
+
+.card-img-top {
+  height: 500px ; /* Ajusta la altura según tus necesidades */
+  width: 100%; /* Ajusta la anchura al 100% del contenedor */
+  object-fit: cover; /* Ajusta la forma en que la imagen se ajusta dentro de su contenedor */
+}
