@@ -10,12 +10,16 @@
     align-items: start center;
     justify-content: center;
   }
+  .bg-gradiente {
+    background: linear-gradient(135deg, #333 0%, #777 100%);}
+
+
 .nav-link {
-  color: #000000;
+
   font-size: 18px;
 }
 .navbar-brand{
-  color: #000000;
+  
   font-size: 30px;
 }
   #Nosotros {
@@ -45,6 +49,7 @@
   font-weight: 200;
   font-style: normal;
   font-size: 50px;
+  margin-top: 100px;
 }
 
 #special-elite-regular {
@@ -228,6 +233,20 @@ footer {
   gap: 80px; /* Ajusta este valor para más o menos espacio entre los botones */
   padding: 20px; /* Añade padding si es necesario */
 
+}
+
+.derechos {
+    background: linear-gradient(135deg, #333 0%, #777 100%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.derechos h1 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    
 }
 
 
