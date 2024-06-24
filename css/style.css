@@ -10,10 +10,12 @@
     align-items: start center;
     justify-content: center;
   }
+
+
   .bg-gradiente {
     background: linear-gradient(135deg, #333 0%, #777 100%);}
 
-
+/*
 .nav-link {
 
   font-size: 18px;
@@ -21,6 +23,32 @@
 .navbar-brand{
   
   font-size: 30px;
+}*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-nav .nav-item {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand {
+  white-space: nowrap;
+}
+@media (max-width: 320px) {
+  .navbar-brand, .nav-link {
+    font-size: 14px;
+  }
+
+  .navbar-toggler {
+    font-size: 14px;
+  }
+
+  .nav-link {
+    padding: 8px 5px;
+  }
 }
   #Nosotros {
     background-color: #000000;
